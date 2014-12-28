@@ -1,22 +1,44 @@
-# MaterialDesignSpinner
+# MMMaterialDesignSpinner
 
-[![CI Status](http://img.shields.io/travis/Mike Maxwell/MaterialDesignSpinner.svg?style=flat)](https://travis-ci.org/Mike Maxwell/MaterialDesignSpinner)
-[![Version](https://img.shields.io/cocoapods/v/MaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MaterialDesignSpinner)
-[![License](https://img.shields.io/cocoapods/l/MaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MaterialDesignSpinner)
-[![Platform](https://img.shields.io/cocoapods/p/MaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MaterialDesignSpinner)
+[![CI Status](http://img.shields.io/travis/Mike Maxwell/MMMaterialDesignSpinner.svg?style=flat)](https://travis-ci.org/Mike Maxwell/MMMaterialDesignSpinner)
+[![Version](https://img.shields.io/cocoapods/v/MMMaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MMMaterialDesignSpinner)
+[![License](https://img.shields.io/cocoapods/l/MMMaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MMMaterialDesignSpinner)
+[![Platform](https://img.shields.io/cocoapods/p/MMMaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MMMaterialDesignSpinner)
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+``` objc
+// Initialize the progress view
+MMMaterialDesignSpinner *spinnerView = [[MMMaterialDesignSpinner alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+
+// Set the line width of the spinner
+spinnerView.lineWidth = 1.5f;
+// Set the tint color of the spinner
+spinnerView.tintColor = [UIColor redColor];
+
+// Add it as a subview
+[self.view addSubview:spinnerView];
+
+...
+
+// Start & stop animations
+[spinnerView startAnimating];
+[spinnerView stopAnimating];
+```
+
+The `lineWidth` and `tintColor` properties can even be set after animating has been started, which you can observe in the included example project.
+
 ## Requirements
+* CoreGraphics
 
 ## Installation
 
 MaterialDesignSpinner is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "MaterialDesignSpinner"
+    pod "MMMaterialDesignSpinner"
 
 ## Author
 
@@ -24,5 +46,5 @@ Mike Maxwell, mmaxwell@vertical.com
 
 ## License
 
-MaterialDesignSpinner is available under the MIT license. See the LICENSE file for more info.
+MMMaterialDesignSpinner is available under the MIT license. See the LICENSE file for more info.
 
