@@ -1,6 +1,6 @@
 # MMMaterialDesignSpinner
 
-[![CI Status](http://img.shields.io/travis/Mike Maxwell/MMMaterialDesignSpinner.svg?style=flat)](https://travis-ci.org/Mike Maxwell/MMMaterialDesignSpinner)
+[![CI Status](http://img.shields.io/travis/misterwell/MMMaterialDesignSpinner.svg?style=flat)](https://travis-ci.org/misterwell/MMMaterialDesignSpinner)
 [![Version](https://img.shields.io/cocoapods/v/MMMaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MMMaterialDesignSpinner)
 [![License](https://img.shields.io/cocoapods/l/MMMaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MMMaterialDesignSpinner)
 [![Platform](https://img.shields.io/cocoapods/p/MMMaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MMMaterialDesignSpinner)
