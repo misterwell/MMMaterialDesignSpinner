@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/MMMaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MMMaterialDesignSpinner)
 [![Platform](https://img.shields.io/cocoapods/p/MMMaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MMMaterialDesignSpinner)
 
-![Demo](Demo.gif “Pod Demo“)
+![Demo](https://raw.githubusercontent.com/misterwell/MMMaterialDesignSpinner/master/Demo.gif "Pod Demo")
 
 ## Usage
 
