@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/MMMaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MMMaterialDesignSpinner)
 [![Platform](https://img.shields.io/cocoapods/p/MMMaterialDesignSpinner.svg?style=flat)](http://cocoadocs.org/docsets/MMMaterialDesignSpinner)
 
+![Demo](Demo.gif “Pod Demo“)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
