@@ -25,6 +25,14 @@
 /** Property indicating whether the view is currently animating. */
 @property (nonatomic, readonly) BOOL isAnimating;
 
+/**
+ *  Convenience function for starting & stopping animation with a boolean variable instead of explicit
+ *  method calls.
+ *
+ *  @param animate true to start animating, false to stop animating.
+    @note This method simply calls the startAnimating or stopAnimating methods based on the value of the animate parameter.
+ */
+- (void)setAnimating:(BOOL)animate;
 
 /**
  *  Starts animation of the spinner.

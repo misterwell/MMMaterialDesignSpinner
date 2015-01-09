@@ -69,6 +69,10 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
     }
 }
 
+- (void)setAnimating:(BOOL)animate {
+    (animate ? [self startAnimating] : [self stopAnimating]);
+}
+
 - (void)startAnimating {
     if (self.isAnimating)
         return;
