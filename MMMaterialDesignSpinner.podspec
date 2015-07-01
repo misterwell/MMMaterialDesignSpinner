@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MMMaterialDesignSpinner"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "An iOS activity spinner modeled after Google's Material Design spinner"
   s.description      = <<-DESC
                         I love Google's new indeterminate spinner in the [Material Design guidelines](http://www.google.com/design/spec/components/progress-activity.html#progress-activity-types-of-indicators), and I hadn't found a recreation of it for iOS yet, so I created it using CoreGraphics and CoreAnimation, which makes it super lightweight, smooth, and scalable to large sizes.
