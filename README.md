@@ -31,7 +31,7 @@ spinnerView.tintColor = [UIColor redColor];
 [spinnerView stopAnimating];
 
 ```
-Also Supported Xib & StoryBoard
+Also Support Xib & StoryBoard
 
 
 The `lineWidth` and `tintColor` properties can even be set after animating has been started, which you can observe in the included example project.
