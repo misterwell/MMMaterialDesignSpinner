@@ -34,6 +34,11 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
     return self;
 }
 
+- (void)awakeFromNib
+{
+    [self initialize];
+}
+
 - (void)initialize {
     _timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     
