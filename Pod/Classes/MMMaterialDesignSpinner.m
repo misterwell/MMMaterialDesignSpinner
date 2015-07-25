@@ -88,6 +88,7 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
     animation.fromValue = @(0.f);
     animation.toValue = @(2 * M_PI);
     animation.repeatCount = INFINITY;
+    animation.removedOnCompletion = NO;
     [self.progressLayer addAnimation:animation forKey:kMMRingRotationAnimationKey];
     
     CABasicAnimation *headAnimation = [CABasicAnimation animation];
@@ -125,6 +126,7 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
     [animations setDuration:1.5f];
     [animations setAnimations:@[headAnimation, tailAnimation, endHeadAnimation, endTailAnimation]];
     animations.repeatCount = INFINITY;
+    animations.removedOnCompletion = NO;
     [self.progressLayer addAnimation:animations forKey:kMMRingStrokeAnimationKey];
     
     
