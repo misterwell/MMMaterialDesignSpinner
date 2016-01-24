@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## MaterialDesignSpinner
+## MMMaterialDesignSpinner
 
 Copyright (c) 2014 Mike Maxwell <mmaxwell@vertical.com>
 

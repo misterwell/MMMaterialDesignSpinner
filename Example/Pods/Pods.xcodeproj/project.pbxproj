@@ -1,1815 +1,669 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00E13E101A9E3E190CE57774</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>018FA05883E7528A3DAEE4AF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9FCD827722A1702C1590E45F</string>
-				<string>A99BB896DF90BCFE46E0FE91</string>
-				<string>DF8F34C689EA67FC92981050</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MaterialDesignSpinner</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>02A4FF8B4D6D4080E59ABCF5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>580EC98447276A689DEBC6AD</string>
-				<string>0E996702B779C4B9B043DA1D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0474A67B54FE0D9F49FF6E90</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B157B78EB7B5836D1C2B0192</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>08F4721776662ECAE4107F94</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0E996702B779C4B9B043DA1D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>00E13E101A9E3E190CE57774</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0F72B6DE0BF6C277A246B413</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-MaterialDesignSpinner-MaterialDesignSpinner</string>
-			<key>target</key>
-			<string>9A392FABE52F9414ACF126CD</string>
-			<key>targetProxy</key>
-			<string>525D2AD53C8141C1F07F5167</string>
-		</dict>
-		<key>145E56B02395CA9348D767E5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9808143B304F042DAA967837</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-MaterialDesignSpinner/Pods-Tests-MaterialDesignSpinner-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>154C742120265F091683B9FE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-MaterialDesignSpinner.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>1570158D8489F5870E5E8769</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C138537691EC8C18A62B4084</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1B967BEAD45217A3BEFBC66D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>018FA05883E7528A3DAEE4AF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BE5A9300E58EEAB591EC4DF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6A3E7A6849DDAE5D57A3A80F</string>
-				<string>154C742120265F091683B9FE</string>
-				<string>F693B9664229B46A7FCBAAEA</string>
-				<string>AE7E58B3A8AA8CACF75877D9</string>
-				<string>8AF7C144432387DA88B5E5E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>22D38A569CF192495C333462</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9FCD827722A1702C1590E45F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>297DA729BC239EEB7D507B9A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A99BB896DF90BCFE46E0FE91</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A9F98C15E0982FE1CF73CE7</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>91C1B89240D9757ED4DD8857</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3607E03D1C24B9CF1609DCF3</string>
-			<key>remoteInfo</key>
-			<string>MaterialDesignSpinner</string>
-		</dict>
-		<key>2B2D2C2B26217B0FD696E1BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C2F65A0508F83CD3CB10DFF</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>303EAE2ED43AC5532864736A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C138537691EC8C18A62B4084</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>30BFBF4C61B56745C89713BE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0474A67B54FE0D9F49FF6E90</string>
-				<string>7A53AD99CA832F11C1BDDEE1</string>
-				<string>7D8A4E38567AC899889E3467</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>31417354A4FA8BEA1FBD72CC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>91C1B89240D9757ED4DD8857</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3607E03D1C24B9CF1609DCF3</string>
-			<key>remoteInfo</key>
-			<string>MaterialDesignSpinner</string>
-		</dict>
-		<key>33F69252C67BAB703D200E8D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3607E03D1C24B9CF1609DCF3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A4F1CDA3FA4C5C95E40B703B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C4C9097C851AC289C2349EDA</string>
-				<string>08F4721776662ECAE4107F94</string>
-				<string>7A9E1FA0DE5B42B8A7B60BA9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MaterialDesignSpinner</string>
-			<key>productName</key>
-			<string>MaterialDesignSpinner</string>
-			<key>productReference</key>
-			<string>6A3E7A6849DDAE5D57A3A80F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>381992340850A3B7474E8C5E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F5269F20B0EC539B58528E03</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>38A35002E82CB2A3DCCBA28D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9808143B304F042DAA967837</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-MaterialDesignSpinner/Pods-Tests-MaterialDesignSpinner-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3F48427B5B3406BF012F7D26</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8B3A525B2685B59391D3343A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3F9B1CF5C25D628255C09168</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0751D30FC3E23E95A3D77D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>40D6DEA731E90E81EBB9A01C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-MaterialDesignSpinner-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-MaterialDesignSpinner/Pods-Tests-MaterialDesignSpinner-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>42550159611041940F59139A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B157B78EB7B5836D1C2B0192</string>
-				<string>C138537691EC8C18A62B4084</string>
-				<string>89C2DDA40047D304C390650C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>459B45514D09D3600D3BE06C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>88A0F90A4A61D0E6BE459217</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F6272323D543A75B3DE30DBF</string>
-				<string>30BFBF4C61B56745C89713BE</string>
-				<string>C5D1404C1A074F4C860C9D3D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>E8566DA82A3456C29580AB0B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-MaterialDesignSpinner</string>
-			<key>productName</key>
-			<string>Pods-Tests-MaterialDesignSpinner</string>
-			<key>productReference</key>
-			<string>8AF7C144432387DA88B5E5E7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>467A679EF0531B5A953E543E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner-MaterialDesignSpinner.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4923482A222DA2E295320FB1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4EA189C2352923916764388B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C138537691EC8C18A62B4084</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>50ED656C6538C3A7E5EA00A8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>525D2AD53C8141C1F07F5167</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>91C1B89240D9757ED4DD8857</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9A392FABE52F9414ACF126CD</string>
-			<key>remoteInfo</key>
-			<string>Pods-MaterialDesignSpinner-MaterialDesignSpinner</string>
-		</dict>
-		<key>52AD9951725441B4B3D1469F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2B2D2C2B26217B0FD696E1BB</string>
-				<string>4923482A222DA2E295320FB1</string>
-				<string>69783537FEA6B29D66B7CF7E</string>
-				<string>75FDC91F281D4ADE2085104E</string>
-				<string>EB0A05C7E43EA12956F2CAB1</string>
-				<string>F5269F20B0EC539B58528E03</string>
-				<string>8ECCBAB27E22A47F467B823F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-MaterialDesignSpinner</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-MaterialDesignSpinner</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53CB33400B1C48F20089DE4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A99BB896DF90BCFE46E0FE91</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>578BE01FB75A3D60F54EF2DA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9049D06F6BB417E9B7103FFF</string>
-				<string>33F69252C67BAB703D200E8D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>580EC98447276A689DEBC6AD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9589C2AEB1B6795DBFDBC4EB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5E19D47EF2AC6175421E1280</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F568C358679869FF2FD7E96</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B157B78EB7B5836D1C2B0192</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6777C059E419F988A2654335</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6FFE9BF72312700A19509D11</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>69783537FEA6B29D66B7CF7E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A3E7A6849DDAE5D57A3A80F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MaterialDesignSpinner.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6FFE9BF72312700A19509D11</key>
-		<dict>
-			<key>fileRef</key>
-			<string>716F60F98649BDD74DA5527F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>716F60F98649BDD74DA5527F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72E6C71D1FD67806042E2690</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner-MaterialDesignSpinner-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7578FB3308333B7E914C35DE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75FDC91F281D4ADE2085104E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A53AD99CA832F11C1BDDEE1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C138537691EC8C18A62B4084</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7A9E1FA0DE5B42B8A7B60BA9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7D7B78449F4D08E4EB3575AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D8A4E38567AC899889E3467</key>
-		<dict>
-			<key>fileRef</key>
-			<string>89C2DDA40047D304C390650C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7FFDE4007DBC8158A7B84FDE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MaterialDesignSpinner</string>
-			<key>target</key>
-			<string>3607E03D1C24B9CF1609DCF3</string>
-			<key>targetProxy</key>
-			<string>31417354A4FA8BEA1FBD72CC</string>
-		</dict>
-		<key>81BB91EE2D55DEB7AA7EBA9E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FB5B56C5ECFDD2EE099FA901</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8292AC9829B69390AB5C398F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>72E6C71D1FD67806042E2690</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-MaterialDesignSpinner-MaterialDesignSpinner/Pods-MaterialDesignSpinner-MaterialDesignSpinner-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>847021A7580B897DBDF7499F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner-MaterialDesignSpinner-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8737E1276A8BB27C32C21714</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>381992340850A3B7474E8C5E</string>
-				<string>E0227465742839BD6AC36266</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>88A0F90A4A61D0E6BE459217</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>38A35002E82CB2A3DCCBA28D</string>
-				<string>145E56B02395CA9348D767E5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>89C2DDA40047D304C390650C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>8AF7C144432387DA88B5E5E7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-MaterialDesignSpinner.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8B3A525B2685B59391D3343A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9FCD827722A1702C1590E45F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E8C44A9CE6B691447122BAD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>297DA729BC239EEB7D507B9A</string>
-				<string>C47800F0C4E711245DB28F03</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8ECCBAB27E22A47F467B823F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9049D06F6BB417E9B7103FFF</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>91C1B89240D9757ED4DD8857</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>578BE01FB75A3D60F54EF2DA</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>ABA122DFB5C28875916EFA5B</string>
-			<key>productRefGroup</key>
-			<string>1BE5A9300E58EEAB591EC4DF</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>3607E03D1C24B9CF1609DCF3</string>
-				<string>AC532448928E5B85D1F5A82E</string>
-				<string>9A392FABE52F9414ACF126CD</string>
-				<string>A1326F5EA18724B03CFFEF24</string>
-				<string>459B45514D09D3600D3BE06C</string>
-			</array>
-		</dict>
-		<key>956CB9633B9A785E124A97F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>42550159611041940F59139A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9589C2AEB1B6795DBFDBC4EB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95B0756F71427CE11BBF8FA3</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8292AC9829B69390AB5C398F</string>
-				<string>F5BDE08451485DA7C773734D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9808143B304F042DAA967837</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-MaterialDesignSpinner-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-MaterialDesignSpinner/Pods-Tests-MaterialDesignSpinner-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A392FABE52F9414ACF126CD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>95B0756F71427CE11BBF8FA3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8E8C44A9CE6B691447122BAD</string>
-				<string>C807B8CE6526026B1F84BCB1</string>
-				<string>3F48427B5B3406BF012F7D26</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7FFDE4007DBC8158A7B84FDE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MaterialDesignSpinner-MaterialDesignSpinner</string>
-			<key>productName</key>
-			<string>Pods-MaterialDesignSpinner-MaterialDesignSpinner</string>
-			<key>productReference</key>
-			<string>F693B9664229B46A7FCBAAEA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9FCD827722A1702C1590E45F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MMMaterialDesignSpinner.h</string>
-			<key>path</key>
-			<string>Pod/Classes/MMMaterialDesignSpinner.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A04D6021510C8A442F344FA8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>A1326F5EA18724B03CFFEF24</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>02A4FF8B4D6D4080E59ABCF5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6777C059E419F988A2654335</string>
-				<string>C8CDB5DD03C184C2D3975FC5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B5377204896072AF40939620</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>AE7E58B3A8AA8CACF75877D9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>A4F1CDA3FA4C5C95E40B703B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2C2F65A0508F83CD3CB10DFF</string>
-				<string>50ED656C6538C3A7E5EA00A8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A99BB896DF90BCFE46E0FE91</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MMMaterialDesignSpinner.m</string>
-			<key>path</key>
-			<string>Pod/Classes/MMMaterialDesignSpinner.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ABA122DFB5C28875916EFA5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A04D6021510C8A442F344FA8</string>
-				<string>1B967BEAD45217A3BEFBC66D</string>
-				<string>956CB9633B9A785E124A97F5</string>
-				<string>1BE5A9300E58EEAB591EC4DF</string>
-				<string>D56B3AB801DC4990C32CA040</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC532448928E5B85D1F5A82E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8737E1276A8BB27C32C21714</string>
-			<key>buildPhases</key>
-			<array>
-				<string>81BB91EE2D55DEB7AA7EBA9E</string>
-				<string>CC8D76EE7F0E4D10627DCC2F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>0F72B6DE0BF6C277A246B413</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MaterialDesignSpinner</string>
-			<key>productName</key>
-			<string>Pods-MaterialDesignSpinner</string>
-			<key>productReference</key>
-			<string>154C742120265F091683B9FE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>AE7E58B3A8AA8CACF75877D9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B157B78EB7B5836D1C2B0192</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B5377204896072AF40939620</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-MaterialDesignSpinner</string>
-			<key>target</key>
-			<string>459B45514D09D3600D3BE06C</string>
-			<key>targetProxy</key>
-			<string>D1B067FCB8C76E22417D4C62</string>
-		</dict>
-		<key>C138537691EC8C18A62B4084</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>C47800F0C4E711245DB28F03</key>
-		<dict>
-			<key>fileRef</key>
-			<string>847021A7580B897DBDF7499F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4C9097C851AC289C2349EDA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C5D1404C1A074F4C860C9D3D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>22D38A569CF192495C333462</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C807B8CE6526026B1F84BCB1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5F568C358679869FF2FD7E96</string>
-				<string>1570158D8489F5870E5E8769</string>
-				<string>C9F2ADEDFC0442CAC107842B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C8CDB5DD03C184C2D3975FC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>303EAE2ED43AC5532864736A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C9F2ADEDFC0442CAC107842B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>89C2DDA40047D304C390650C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CC8D76EE7F0E4D10627DCC2F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4EA189C2352923916764388B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D1B067FCB8C76E22417D4C62</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>91C1B89240D9757ED4DD8857</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>459B45514D09D3600D3BE06C</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-MaterialDesignSpinner</string>
-		</dict>
-		<key>D56B3AB801DC4990C32CA040</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52AD9951725441B4B3D1469F</string>
-				<string>DA6779D26CC15BA4E9F1667A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D641D2B38054EEC1D2113F65</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-MaterialDesignSpinner.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-MaterialDesignSpinner/Pods-Tests-MaterialDesignSpinner.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DA6779D26CC15BA4E9F1667A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7578FB3308333B7E914C35DE</string>
-				<string>F2E76A529329258F1F3C4EA9</string>
-				<string>716F60F98649BDD74DA5527F</string>
-				<string>7D7B78449F4D08E4EB3575AB</string>
-				<string>5E19D47EF2AC6175421E1280</string>
-				<string>9589C2AEB1B6795DBFDBC4EB</string>
-				<string>00E13E101A9E3E190CE57774</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF8F34C689EA67FC92981050</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>467A679EF0531B5A953E543E</string>
-				<string>72E6C71D1FD67806042E2690</string>
-				<string>847021A7580B897DBDF7499F</string>
-				<string>E50DEE04CD7612C9E2E1A89C</string>
-				<string>D641D2B38054EEC1D2113F65</string>
-				<string>9808143B304F042DAA967837</string>
-				<string>E0751D30FC3E23E95A3D77D4</string>
-				<string>40D6DEA731E90E81EBB9A01C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-MaterialDesignSpinner-MaterialDesignSpinner</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0227465742839BD6AC36266</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8ECCBAB27E22A47F467B823F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E0751D30FC3E23E95A3D77D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-MaterialDesignSpinner-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-MaterialDesignSpinner/Pods-Tests-MaterialDesignSpinner-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E50DEE04CD7612C9E2E1A89C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner-MaterialDesignSpinner-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8566DA82A3456C29580AB0B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MaterialDesignSpinner</string>
-			<key>target</key>
-			<string>3607E03D1C24B9CF1609DCF3</string>
-			<key>targetProxy</key>
-			<string>2A9F98C15E0982FE1CF73CE7</string>
-		</dict>
-		<key>EB0A05C7E43EA12956F2CAB1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2E76A529329258F1F3C4EA9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5269F20B0EC539B58528E03</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MaterialDesignSpinner.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5BDE08451485DA7C773734D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>72E6C71D1FD67806042E2690</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-MaterialDesignSpinner-MaterialDesignSpinner/Pods-MaterialDesignSpinner-MaterialDesignSpinner-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F6272323D543A75B3DE30DBF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>53CB33400B1C48F20089DE4B</string>
-				<string>3F9B1CF5C25D628255C09168</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F693B9664229B46A7FCBAAEA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-MaterialDesignSpinner-MaterialDesignSpinner.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FB5B56C5ECFDD2EE099FA901</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69783537FEA6B29D66B7CF7E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>91C1B89240D9757ED4DD8857</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB2CF3CCC0444D3098D7DF81A97CCD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
+		239F7815B791719BE5A9A811AD72CF1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
+		3D335DD8FB1C5CD651E3E97EFC12E4CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */; };
+		44F55BC6BC475E1D569819F9A1DA5618 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */; };
+		90CC0B46AB94D4A528A0FD92495B0B32 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1449D3DE5E2054D0E3982B2A1A50494A /* MMMaterialDesignSpinner.m */; };
+		C56D5E4D80DE7D14D9B899B825936AE2 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D6B58135D64B62C49FE96FBF3C1E3F /* Pods-Tests-dummy.m */; };
+		CF2A1D8F04EB6B31F681EF040C917896 /* MMMaterialDesignSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7E8C0BE81BC5571983461068F8956 /* MMMaterialDesignSpinner-dummy.m */; };
+		D22F4C5EAFCE64958DB7DCF00C1D7AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
+		D79BBDE9A48634765E86BB45AE6F9350 /* Pods-MaterialDesignSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BA50F4589FCACE6402C1CE246343CB /* Pods-MaterialDesignSpinner-dummy.m */; };
+		E0300B43F99A043ACC62A382606C7215 /* MMMaterialDesignSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = C257EADEE73138178A90027474457025 /* MMMaterialDesignSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09EE0DF394D4FB08B805DEEEA8EBC3F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD84FAB066A799FD1A5F272DD6107A4A;
+			remoteInfo = "MMMaterialDesignSpinner-MaterialDesignSpinner";
+		};
+		AA19C661D4747EC0AE41D1EEC3E6F787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D273E29CDC7B6DCC1C05ADC4B0F7B75;
+			remoteInfo = MMMaterialDesignSpinner;
+		};
+		FA93F12662792F03F3803A03626834B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D273E29CDC7B6DCC1C05ADC4B0F7B75;
+			remoteInfo = MMMaterialDesignSpinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0393B2D756D8FED994402F6EA53BA61A /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0C79126B4ECDAB638140FC84F054257A /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1449D3DE5E2054D0E3982B2A1A50494A /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		1D193CBFBDC778D0299CAB1D138115F1 /* MMMaterialDesignSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMMaterialDesignSpinner-prefix.pch"; sourceTree = "<group>"; };
+		23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		29FEA5F0A6DA160CD4F33639A46BAECA /* libPods-MaterialDesignSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaterialDesignSpinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD7E8C0BE81BC5571983461068F8956 /* MMMaterialDesignSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMMaterialDesignSpinner-dummy.m"; sourceTree = "<group>"; };
+		37AAF2CB73098F32D33EBAE78C09026F /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B6750FF5A4DAEC2FF9451178DFDBF66 /* Pods-MaterialDesignSpinner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialDesignSpinner-frameworks.sh"; sourceTree = "<group>"; };
+		41C7E6FB6027C77ED61D5E49A2F0D0B5 /* Pods-MaterialDesignSpinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialDesignSpinner.release.xcconfig"; sourceTree = "<group>"; };
+		59A04826DE2F58B7C2B4E87DCCEF5368 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A10BBB060165B5AC6DC14D6BC47D934 /* Pods-MaterialDesignSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialDesignSpinner.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD1B041E7123C7BD224BA79A3E1704C /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CC50B81C2F658EF022CB7CD7B27F4BF /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62C234845AFF5A5B924688BD49CBC1C8 /* Pods-MaterialDesignSpinner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialDesignSpinner-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		86FB64EBC1083EBD806BA4B01B458A36 /* Pods-MaterialDesignSpinner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaterialDesignSpinner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B52C49E1086EE41662E7B77BD00BEB9 /* MMMaterialDesignSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMMaterialDesignSpinner.xcconfig; sourceTree = "<group>"; };
+		95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AEC2AFF92EF32046CEC2CA8DD1B868FF /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C257EADEE73138178A90027474457025 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		C4D6B58135D64B62C49FE96FBF3C1E3F /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		D6116B2E69430C1819FDA0F25F395286 /* Pods-MaterialDesignSpinner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialDesignSpinner-resources.sh"; sourceTree = "<group>"; };
+		E7BA50F4589FCACE6402C1CE246343CB /* Pods-MaterialDesignSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialDesignSpinner-dummy.m"; sourceTree = "<group>"; };
+		F74D5C4E4128ED33F3A68F4D206812DD /* MaterialDesignSpinner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialDesignSpinner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6926D47BC3B22B7FDD677CADDA351D /* libMMMaterialDesignSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMMMaterialDesignSpinner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028DAC776B4DFF3147F1EFE826324E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22F4C5EAFCE64958DB7DCF00C1D7AC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3914235C4904FAAB8E473B3BEE8153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4AFC13648FF41AA611568259AA3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F55BC6BC475E1D569819F9A1DA5618 /* CoreGraphics.framework in Frameworks */,
+				239F7815B791719BE5A9A811AD72CF1F /* Foundation.framework in Frameworks */,
+				3D335DD8FB1C5CD651E3E97EFC12E4CA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E420D5CFDA4BEE8206FC5AB3A34A8CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB2CF3CCC0444D3098D7DF81A97CCD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E35B3E289DB984DA75A774080D293670 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C7A995092DB2701F2B4D01F04FE6B13 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC50B81C2F658EF022CB7CD7B27F4BF /* Pods-Tests-acknowledgements.markdown */,
+				37AAF2CB73098F32D33EBAE78C09026F /* Pods-Tests-acknowledgements.plist */,
+				C4D6B58135D64B62C49FE96FBF3C1E3F /* Pods-Tests-dummy.m */,
+				0393B2D756D8FED994402F6EA53BA61A /* Pods-Tests-frameworks.sh */,
+				AEC2AFF92EF32046CEC2CA8DD1B868FF /* Pods-Tests-resources.sh */,
+				5BD1B041E7123C7BD224BA79A3E1704C /* Pods-Tests.debug.xcconfig */,
+				0C79126B4ECDAB638140FC84F054257A /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		60BA419A451E6BCD47223DDDE2DC221E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C257EADEE73138178A90027474457025 /* MMMaterialDesignSpinner.h */,
+				1449D3DE5E2054D0E3982B2A1A50494A /* MMMaterialDesignSpinner.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				843F1027ED9AF263D1256DA1D1FD8BE5 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				B9E31404DE6B6D6FD6090E4841677779 /* Products */,
+				ABB57AAA27020CE8D6AAC12696E06DD3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		843F1027ED9AF263D1256DA1D1FD8BE5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7D120151C1B9DB8EF47390F3ADA6D5F /* MMMaterialDesignSpinner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		89663FAA9B8955A793EEAC31602A7529 /* Pods-MaterialDesignSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				86FB64EBC1083EBD806BA4B01B458A36 /* Pods-MaterialDesignSpinner-acknowledgements.markdown */,
+				62C234845AFF5A5B924688BD49CBC1C8 /* Pods-MaterialDesignSpinner-acknowledgements.plist */,
+				E7BA50F4589FCACE6402C1CE246343CB /* Pods-MaterialDesignSpinner-dummy.m */,
+				3B6750FF5A4DAEC2FF9451178DFDBF66 /* Pods-MaterialDesignSpinner-frameworks.sh */,
+				D6116B2E69430C1819FDA0F25F395286 /* Pods-MaterialDesignSpinner-resources.sh */,
+				5A10BBB060165B5AC6DC14D6BC47D934 /* Pods-MaterialDesignSpinner.debug.xcconfig */,
+				41C7E6FB6027C77ED61D5E49A2F0D0B5 /* Pods-MaterialDesignSpinner.release.xcconfig */,
+			);
+			name = "Pods-MaterialDesignSpinner";
+			path = "Target Support Files/Pods-MaterialDesignSpinner";
+			sourceTree = "<group>";
+		};
+		ABB57AAA27020CE8D6AAC12696E06DD3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89663FAA9B8955A793EEAC31602A7529 /* Pods-MaterialDesignSpinner */,
+				4C7A995092DB2701F2B4D01F04FE6B13 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B9E31404DE6B6D6FD6090E4841677779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6926D47BC3B22B7FDD677CADDA351D /* libMMMaterialDesignSpinner.a */,
+				29FEA5F0A6DA160CD4F33639A46BAECA /* libPods-MaterialDesignSpinner.a */,
+				59A04826DE2F58B7C2B4E87DCCEF5368 /* libPods-Tests.a */,
+				F74D5C4E4128ED33F3A68F4D206812DD /* MaterialDesignSpinner.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3DC86BAF39A17E3619C2D60864ACFB7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				60BA419A451E6BCD47223DDDE2DC221E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D7D120151C1B9DB8EF47390F3ADA6D5F /* MMMaterialDesignSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				C3DC86BAF39A17E3619C2D60864ACFB7 /* Pod */,
+				EC9B465B09F6C81F072951279F286B94 /* Support Files */,
+			);
+			name = MMMaterialDesignSpinner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E35B3E289DB984DA75A774080D293670 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */,
+				95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */,
+				7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC9B465B09F6C81F072951279F286B94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B52C49E1086EE41662E7B77BD00BEB9 /* MMMaterialDesignSpinner.xcconfig */,
+				2CD7E8C0BE81BC5571983461068F8956 /* MMMaterialDesignSpinner-dummy.m */,
+				1D193CBFBDC778D0299CAB1D138115F1 /* MMMaterialDesignSpinner-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMMaterialDesignSpinner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F5061B9C4DA4C42CD22D6A10A368709C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0300B43F99A043ACC62A382606C7215 /* MMMaterialDesignSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F1523A452879773F02647CAE9BA9D0D /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0044FE21C7CEA80DDB8C2D8B18D3EB /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				48B63FE71F340FF2A7D952029D4BF130 /* Sources */,
+				E420D5CFDA4BEE8206FC5AB3A34A8CCD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74308C93C6D68EFD1DAA5F3EB8C1E344 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 59A04826DE2F58B7C2B4E87DCCEF5368 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9D273E29CDC7B6DCC1C05ADC4B0F7B75 /* MMMaterialDesignSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B102C2781D3CF034CCBDF17F0714D23F /* Build configuration list for PBXNativeTarget "MMMaterialDesignSpinner" */;
+			buildPhases = (
+				94C1FAA7F42B085422CE4B8E3F0B378A /* Sources */,
+				DCA4AFC13648FF41AA611568259AA3F5 /* Frameworks */,
+				F5061B9C4DA4C42CD22D6A10A368709C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				628DD980BC607626AA158B9F7FE02C2A /* PBXTargetDependency */,
+			);
+			name = MMMaterialDesignSpinner;
+			productName = MMMaterialDesignSpinner;
+			productReference = FA6926D47BC3B22B7FDD677CADDA351D /* libMMMaterialDesignSpinner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AD84FAB066A799FD1A5F272DD6107A4A /* MMMaterialDesignSpinner-MaterialDesignSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE208DBAEE062260743E2FA0212DA27B /* Build configuration list for PBXNativeTarget "MMMaterialDesignSpinner-MaterialDesignSpinner" */;
+			buildPhases = (
+				8F3BC54397598AE448B15F575F994A08 /* Sources */,
+				5B3914235C4904FAAB8E473B3BEE8153 /* Frameworks */,
+				000CD12118DB3068055E6CDB27082DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MMMaterialDesignSpinner-MaterialDesignSpinner";
+			productName = "MMMaterialDesignSpinner-MaterialDesignSpinner";
+			productReference = F74D5C4E4128ED33F3A68F4D206812DD /* MaterialDesignSpinner.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DE67492F6E2AE527F2D07919131CB52B /* Pods-MaterialDesignSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F79E4BE34D51B975C2B4DD5FC647756 /* Build configuration list for PBXNativeTarget "Pods-MaterialDesignSpinner" */;
+			buildPhases = (
+				D7B5BEA9F6C9EDD0ED46BF6B5FF7549D /* Sources */,
+				028DAC776B4DFF3147F1EFE826324E38 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1B2D1152461A8A7CC6125EE6149D97C /* PBXTargetDependency */,
+			);
+			name = "Pods-MaterialDesignSpinner";
+			productName = "Pods-MaterialDesignSpinner";
+			productReference = 29FEA5F0A6DA160CD4F33639A46BAECA /* libPods-MaterialDesignSpinner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B9E31404DE6B6D6FD6090E4841677779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D273E29CDC7B6DCC1C05ADC4B0F7B75 /* MMMaterialDesignSpinner */,
+				AD84FAB066A799FD1A5F272DD6107A4A /* MMMaterialDesignSpinner-MaterialDesignSpinner */,
+				DE67492F6E2AE527F2D07919131CB52B /* Pods-MaterialDesignSpinner */,
+				6F1523A452879773F02647CAE9BA9D0D /* Pods-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000CD12118DB3068055E6CDB27082DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B63FE71F340FF2A7D952029D4BF130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56D5E4D80DE7D14D9B899B825936AE2 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3BC54397598AE448B15F575F994A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C1FAA7F42B085422CE4B8E3F0B378A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2A1D8F04EB6B31F681EF040C917896 /* MMMaterialDesignSpinner-dummy.m in Sources */,
+				90CC0B46AB94D4A528A0FD92495B0B32 /* MMMaterialDesignSpinner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B5BEA9F6C9EDD0ED46BF6B5FF7549D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79BBDE9A48634765E86BB45AE6F9350 /* Pods-MaterialDesignSpinner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		628DD980BC607626AA158B9F7FE02C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MMMaterialDesignSpinner-MaterialDesignSpinner";
+			target = AD84FAB066A799FD1A5F272DD6107A4A /* MMMaterialDesignSpinner-MaterialDesignSpinner */;
+			targetProxy = 09EE0DF394D4FB08B805DEEEA8EBC3F8 /* PBXContainerItemProxy */;
+		};
+		74308C93C6D68EFD1DAA5F3EB8C1E344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMMaterialDesignSpinner;
+			target = 9D273E29CDC7B6DCC1C05ADC4B0F7B75 /* MMMaterialDesignSpinner */;
+			targetProxy = AA19C661D4747EC0AE41D1EEC3E6F787 /* PBXContainerItemProxy */;
+		};
+		F1B2D1152461A8A7CC6125EE6149D97C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMMaterialDesignSpinner;
+			target = 9D273E29CDC7B6DCC1C05ADC4B0F7B75 /* MMMaterialDesignSpinner */;
+			targetProxy = FA93F12662792F03F3803A03626834B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01D9AF91345BB9B6055EFCD90386A110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B52C49E1086EE41662E7B77BD00BEB9 /* MMMaterialDesignSpinner.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMMaterialDesignSpinner/MMMaterialDesignSpinner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E77550088189000B38CCFA4D46484A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C79126B4ECDAB638140FC84F054257A /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F45EE5C43E2BFCABBF4728A574F3AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD1B041E7123C7BD224BA79A3E1704C /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		57009644CB2096B4D8FEDAE283561CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B52C49E1086EE41662E7B77BD00BEB9 /* MMMaterialDesignSpinner.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMMaterialDesignSpinner/MMMaterialDesignSpinner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		73324F5D2A3DA007126F294A14EA2030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C7E6FB6027C77ED61D5E49A2F0D0B5 /* Pods-MaterialDesignSpinner.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9DB77E39961D8E4E7BA92471F067497C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B52C49E1086EE41662E7B77BD00BEB9 /* MMMaterialDesignSpinner.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MaterialDesignSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B261AF9ECF18543DB8BE6A02AF730CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B52C49E1086EE41662E7B77BD00BEB9 /* MMMaterialDesignSpinner.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MaterialDesignSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D81E41CB51A1555687065EC3AEB43B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A10BBB060165B5AC6DC14D6BC47D934 /* Pods-MaterialDesignSpinner.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F79E4BE34D51B975C2B4DD5FC647756 /* Build configuration list for PBXNativeTarget "Pods-MaterialDesignSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81E41CB51A1555687065EC3AEB43B3B /* Debug */,
+				73324F5D2A3DA007126F294A14EA2030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0044FE21C7CEA80DDB8C2D8B18D3EB /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F45EE5C43E2BFCABBF4728A574F3AFA /* Debug */,
+				04E77550088189000B38CCFA4D46484A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B102C2781D3CF034CCBDF17F0714D23F /* Build configuration list for PBXNativeTarget "MMMaterialDesignSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57009644CB2096B4D8FEDAE283561CF2 /* Debug */,
+				01D9AF91345BB9B6055EFCD90386A110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE208DBAEE062260743E2FA0212DA27B /* Build configuration list for PBXNativeTarget "MMMaterialDesignSpinner-MaterialDesignSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB77E39961D8E4E7BA92471F067497C /* Debug */,
+				B261AF9ECF18543DB8BE6A02AF730CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
