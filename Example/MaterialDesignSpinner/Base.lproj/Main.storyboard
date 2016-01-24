@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9052" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="MMViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HW3-rr-Akw" customClass="MMMaterialDesignSpinner">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HW3-rr-Akw" secondAttribute="height" multiplier="1:1" id="eh9-m5-0OE"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxJ-ep-Qc5">
+                                <rect key="frame" x="253" y="420" width="94" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Change Color"/>
+                                <connections>
+                                    <action selector="changeColorButtonTouched:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zUc-r8-e9P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Umg-oT-Dv1">
+                                <rect key="frame" x="235" y="458" width="131" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Change Line Width"/>
+                                <connections>
+                                    <action selector="changeLineWidthButtonTouched:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Kgo-vV-Mja"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Umg-oT-Dv1" firstAttribute="top" secondItem="bxJ-ep-Qc5" secondAttribute="bottom" constant="8" symbolic="YES" id="1EZ-mV-u15"/>
+                            <constraint firstItem="HW3-rr-Akw" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="1:3" id="4dr-09-65z"/>
+                            <constraint firstItem="Umg-oT-Dv1" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="A0X-DN-AiI"/>
+                            <constraint firstItem="bxJ-ep-Qc5" firstAttribute="top" secondItem="HW3-rr-Akw" secondAttribute="bottom" constant="20" id="Cmt-gg-FUs"/>
+                            <constraint firstItem="bxJ-ep-Qc5" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="NEM-nh-Nf9"/>
+                            <constraint firstItem="HW3-rr-Akw" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="c5R-S9-N1n"/>
+                            <constraint firstItem="HW3-rr-Akw" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="lAp-IZ-ygd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="spinnerView" destination="HW3-rr-Akw" id="mkj-d2-eQE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="571.875" y="438.90845070422534"/>
+        </scene>
+    </scenes>
+</document>

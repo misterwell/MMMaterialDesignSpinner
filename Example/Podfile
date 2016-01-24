@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'MaterialDesignSpinner', :exclusive => true do
-  pod "MaterialDesignSpinner", :path => "../"
+  pod "MMMaterialDesignSpinner", :path => "../"
 end
 
 target 'Tests', :exclusive => true do
-  pod "MaterialDesignSpinner", :path => "../"
+  pod "MMMaterialDesignSpinner", :path => "../"
 
   
 end
