@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A504B1A9E68BC6B79EBDB10 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B34E5AF7620B24FEE3CF1D /* libPods-Tests.a */; };
+		22D2F9D93EE82E3E1977CF45 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D64410849DB4805EE662656 /* Pods_Tests.framework */; };
+		47EEE3FFC2D6096ECCC812E3 /* Pods_MaterialDesignSpinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5751A42B9AE2E4AD2DE57D18 /* Pods_MaterialDesignSpinner.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		CBE8C4BA9BCAD038F53C9698 /* libPods-MaterialDesignSpinner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 934CFBABF3E4F604707FEA96 /* libPods-MaterialDesignSpinner.a */; };
 		DB7295681BC9B25B009FD543 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7295661BC9B25B009FD543 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26B34E5AF7620B24FEE3CF1D /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D64410849DB4805EE662656 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5751A42B9AE2E4AD2DE57D18 /* Pods_MaterialDesignSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialDesignSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MaterialDesignSpinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialDesignSpinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,7 +60,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		65935A348F40FBC30D8ACB6A /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		934CFBABF3E4F604707FEA96 /* libPods-MaterialDesignSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaterialDesignSpinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7DACCA6095E381B9FD67CE3 /* Pods-MaterialDesignSpinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialDesignSpinner.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialDesignSpinner/Pods-MaterialDesignSpinner.release.xcconfig"; sourceTree = "<group>"; };
 		B9F194E218601B8C8CECD92F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BB285D85DDBCA3BB5368E9D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				CBE8C4BA9BCAD038F53C9698 /* libPods-MaterialDesignSpinner.a in Frameworks */,
+				47EEE3FFC2D6096ECCC812E3 /* Pods_MaterialDesignSpinner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3A504B1A9E68BC6B79EBDB10 /* libPods-Tests.a in Frameworks */,
+				22D2F9D93EE82E3E1977CF45 /* Pods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				934CFBABF3E4F604707FEA96 /* libPods-MaterialDesignSpinner.a */,
-				26B34E5AF7620B24FEE3CF1D /* libPods-Tests.a */,
+				5751A42B9AE2E4AD2DE57D18 /* Pods_MaterialDesignSpinner.framework */,
+				1D64410849DB4805EE662656 /* Pods_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

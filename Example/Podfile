@@ -1,4 +1,5 @@
-source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
 
 target 'MaterialDesignSpinner', :exclusive => true do
   pod "MMMaterialDesignSpinner", :path => "../"
@@ -6,6 +7,4 @@ end
 
 target 'Tests', :exclusive => true do
   pod "MMMaterialDesignSpinner", :path => "../"
-
-  
 end
