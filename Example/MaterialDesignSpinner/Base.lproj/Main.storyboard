@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9052" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -21,7 +21,6 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HW3-rr-Akw" customClass="MMMaterialDesignSpinner">
                                 <rect key="frame" x="200" y="200" width="200" height="200"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="HW3-rr-Akw" secondAttribute="height" multiplier="1:1" id="eh9-m5-0OE"/>
@@ -29,7 +28,6 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxJ-ep-Qc5">
                                 <rect key="frame" x="253" y="420" width="94" height="30"/>
-                                <animations/>
                                 <state key="normal" title="Change Color"/>
                                 <connections>
                                     <action selector="changeColorButtonTouched:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zUc-r8-e9P"/>
@@ -37,32 +35,63 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Umg-oT-Dv1">
                                 <rect key="frame" x="235" y="458" width="131" height="30"/>
-                                <animations/>
                                 <state key="normal" title="Change Line Width"/>
                                 <connections>
                                     <action selector="changeLineWidthButtonTouched:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Kgo-vV-Mja"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P6d-eP-pjF">
+                                <rect key="frame" x="180" y="496" width="240" height="30"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="BCa-2B-PxA">
+                                        <rect key="frame" x="72" y="0.0" width="170" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="166" id="oZZ-eP-B6N"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="durationSliderValueUpdated:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Yt3-t2-Zln"/>
+                                            <action selector="durationSliderValueUpdated:" destination="vXZ-lx-hvc" eventType="touchUpOutside" id="btR-st-mNM"/>
+                                        </connections>
+                                    </slider>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZk-x6-Cbo">
+                                        <rect key="frame" x="0.0" y="4" width="65.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="oZk-x6-Cbo" firstAttribute="centerY" secondItem="BCa-2B-PxA" secondAttribute="centerY" id="9CN-GK-gQI"/>
+                                    <constraint firstItem="BCa-2B-PxA" firstAttribute="leading" secondItem="oZk-x6-Cbo" secondAttribute="trailing" constant="8.5" id="E0Y-Nj-D7M"/>
+                                    <constraint firstItem="BCa-2B-PxA" firstAttribute="top" secondItem="P6d-eP-pjF" secondAttribute="top" id="MGc-Sw-dlP"/>
+                                    <constraint firstItem="oZk-x6-Cbo" firstAttribute="leading" secondItem="P6d-eP-pjF" secondAttribute="leading" id="Qop-uU-SMI"/>
+                                    <constraint firstAttribute="bottom" secondItem="BCa-2B-PxA" secondAttribute="bottom" id="rMj-n9-UZP"/>
+                                    <constraint firstAttribute="trailing" secondItem="BCa-2B-PxA" secondAttribute="trailing" id="yAh-JG-gqX"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Umg-oT-Dv1" firstAttribute="top" secondItem="bxJ-ep-Qc5" secondAttribute="bottom" constant="8" symbolic="YES" id="1EZ-mV-u15"/>
                             <constraint firstItem="HW3-rr-Akw" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="1:3" id="4dr-09-65z"/>
                             <constraint firstItem="Umg-oT-Dv1" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="A0X-DN-AiI"/>
                             <constraint firstItem="bxJ-ep-Qc5" firstAttribute="top" secondItem="HW3-rr-Akw" secondAttribute="bottom" constant="20" id="Cmt-gg-FUs"/>
+                            <constraint firstItem="P6d-eP-pjF" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="LUZ-rw-3h9"/>
                             <constraint firstItem="bxJ-ep-Qc5" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="NEM-nh-Nf9"/>
                             <constraint firstItem="HW3-rr-Akw" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="c5R-S9-N1n"/>
                             <constraint firstItem="HW3-rr-Akw" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="lAp-IZ-ygd"/>
+                            <constraint firstItem="P6d-eP-pjF" firstAttribute="top" secondItem="Umg-oT-Dv1" secondAttribute="bottom" constant="8" id="xcT-AQ-2QR"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="durationSlider" destination="BCa-2B-PxA" id="zNN-IT-kOe"/>
                         <outlet property="spinnerView" destination="HW3-rr-Akw" id="mkj-d2-eQE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="571.875" y="438.90845070422534"/>
+            <point key="canvasLocation" x="571" y="438"/>
         </scene>
     </scenes>
 </document>

@@ -8,10 +8,11 @@
 
 #import "MMViewController.h"
 
-#import <MMMaterialDesignSpinner.h>
+#import "MMMaterialDesignSpinner.h"
 
 @interface MMViewController ()
 @property (nonatomic, strong) IBOutlet MMMaterialDesignSpinner *spinnerView;
+@property (weak, nonatomic) IBOutlet UISlider *durationSlider;
 @end
 
 @implementation MMViewController
@@ -31,6 +32,12 @@
 - (IBAction)changeLineWidthButtonTouched:(id)sender {
     self.spinnerView.lineWidth = (rand() % 10) / 2.f;
     if (self.spinnerView.lineWidth == 0) self.spinnerView.lineWidth = 0.1f;
+}
+
+- (IBAction)durationSliderValueUpdated:(id)sender {
+    [self.spinnerView stopAnimating];
+    self.spinnerView.duration = self.durationSlider.value;
+    [self.spinnerView startAnimating];
 }
 
 #pragma mark Helper methods
