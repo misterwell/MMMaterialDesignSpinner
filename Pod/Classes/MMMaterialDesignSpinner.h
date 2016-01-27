@@ -33,6 +33,9 @@ FOUNDATION_EXPORT const unsigned char MMMaterialDesignSpinnerVersionString[];
 /** Property indicating whether the view is currently animating. */
 @property (nonatomic, readonly) BOOL isAnimating;
 
+/** Property indicating the duration of the animation, default is 1.5s. Should be set prior to -[startAnimating] */
+@property (nonatomic, readwrite) NSTimeInterval duration;
+
 /**
  *  Convenience function for starting & stopping animation with a boolean variable instead of explicit
  *  method calls.
