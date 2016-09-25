@@ -30,7 +30,7 @@
 }
 
 - (IBAction)changeLineWidthButtonTouched:(id)sender {
-    self.spinnerView.lineWidth = (rand() % 10) / 2.f;
+    self.spinnerView.lineWidth = (rand() % 20) / 2.f;
     if (self.spinnerView.lineWidth == 0) self.spinnerView.lineWidth = 0.1f;
 }
 
@@ -39,6 +39,19 @@
     self.spinnerView.duration = self.durationSlider.value;
     [self.spinnerView startAnimating];
 }
+
+- (IBAction)squareCapButtonPressed:(id)sender {
+    self.spinnerView.lineCap = kCALineCapSquare;
+}
+
+- (IBAction)rouncCapButtonPressed:(id)sender {
+    self.spinnerView.lineCap = kCALineCapRound;
+}
+
+- (IBAction)buttCapButtonPressed:(id)sender {
+    self.spinnerView.lineCap = kCALineCapButt;
+}
+
 
 #pragma mark Helper methods
 

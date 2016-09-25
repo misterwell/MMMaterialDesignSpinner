@@ -1,0 +1,16 @@
+PODS:
+  - MMMaterialDesignSpinner (0.2.3)
+
+DEPENDENCIES:
+  - MMMaterialDesignSpinner (from `../`)
+
+EXTERNAL SOURCES:
+  MMMaterialDesignSpinner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MMMaterialDesignSpinner: 55c80b454f7928d0ed789cc3c456fa06bd6a2f16
+
+PODFILE CHECKSUM: c0dd544008166879b3152865a647d9ab7cf11291
+
+COCOAPODS: 1.0.1

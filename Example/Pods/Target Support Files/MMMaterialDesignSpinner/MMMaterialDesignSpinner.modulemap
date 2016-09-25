@@ -1,0 +1,6 @@
+framework module MMMaterialDesignSpinner {
+  umbrella header "MMMaterialDesignSpinner-umbrella.h"
+
+  export *
+  module * { export * }
+}
