@@ -19,6 +19,11 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
 @implementation MMMaterialDesignSpinner
 
 @synthesize progressLayer=_progressLayer;
+@synthesize hidesWhenStopped=_hidesWhenStopped;
+@synthesize activityIndicatorViewStyle=_activityIndicatorViewStyle;
+@synthesize color=_color;
+@synthesize timingFunction=_timingFunction;
+@synthesize duration=_duration;
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
@@ -36,6 +41,7 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     [self initialize];
 }
 
@@ -47,6 +53,7 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
     
     // See comment in resetAnimations on why this notification is used.
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(resetAnimations) name:UIApplicationDidBecomeActiveNotification object:nil];
+    [self invalidateIntrinsicContentSize];
 }
 
 - (void)dealloc
@@ -58,7 +65,13 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
     [super layoutSubviews];
     
     self.progressLayer.frame = CGRectMake(0, 0, CGRectGetWidth(self.bounds), CGRectGetHeight(self.bounds));
+    [self invalidateIntrinsicContentSize];
     [self updatePath];
+}
+
+- (CGSize)intrinsicContentSize
+{
+    return CGSizeMake(self.bounds.size.width, self.bounds.size.height);
 }
 
 - (void)tintColorDidChange {
