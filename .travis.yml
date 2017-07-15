@@ -3,6 +3,8 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
+osx_image: xcode8.3
+
 cache: cocoapods
 podfile: Example/Podfile
 before_install:
@@ -11,4 +13,5 @@ before_install:
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace Example/MaterialDesignSpinner.xcworkspace -scheme MaterialDesignSpinner-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  # Using `build` command for now since no tests are being run so we don't need to specify a device to test on in the build command
+- set -o pipefail && xcodebuild build -workspace Example/MaterialDesignSpinner.xcworkspace -scheme MaterialDesignSpinner-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
