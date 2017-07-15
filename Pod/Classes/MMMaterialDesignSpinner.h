@@ -24,6 +24,9 @@ FOUNDATION_EXPORT const unsigned char MMMaterialDesignSpinnerVersionString[];
 /** Sets the line width of the spinner's circle. */
 @property (nonatomic) CGFloat lineWidth;
 
+/** Sets the line cap of the spinner's circle. */
+@property (nonatomic, strong) NSString *lineCap;
+
 /** Sets whether the view is hidden when not animating. */
 @property (nonatomic) BOOL hidesWhenStopped;
 

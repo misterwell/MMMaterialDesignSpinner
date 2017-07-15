@@ -187,8 +187,19 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
     return self.progressLayer.lineWidth;
 }
 
+- (NSString *)lineCap
+{
+    return self.progressLayer.lineCap;
+}
+
 - (void)setLineWidth:(CGFloat)lineWidth {
     self.progressLayer.lineWidth = lineWidth;
+    [self updatePath];
+}
+
+- (void)setLineCap:(NSString *)lineCap
+{
+    self.progressLayer.lineCap = lineCap;
     [self updatePath];
 }
 
