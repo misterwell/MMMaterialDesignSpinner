@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75A8F60A1E6C2F8E00C7FF55 /* ActivityTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A8F6091E6C2F8E00C7FF55 /* ActivityTracking.h */; };
 		9295C9501B253D8900C388EB /* MMMaterialDesignSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9295C94E1B253D8900C388EB /* MMMaterialDesignSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9295C9511B253D8900C388EB /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9295C94F1B253D8900C388EB /* MMMaterialDesignSpinner.m */; };
 		9295C9531B253D9F00C388EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9295C9521B253D9F00C388EB /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75A8F6091E6C2F8E00C7FF55 /* ActivityTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityTracking.h; path = Pod/Classes/ActivityTracking.h; sourceTree = SOURCE_ROOT; };
 		9295C9321B253D2D00C388EB /* MMMaterialDesignSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMMaterialDesignSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9295C94E1B253D8900C388EB /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMMaterialDesignSpinner.h; path = Pod/Classes/MMMaterialDesignSpinner.h; sourceTree = SOURCE_ROOT; };
 		9295C94F1B253D8900C388EB /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMMaterialDesignSpinner.m; path = Pod/Classes/MMMaterialDesignSpinner.m; sourceTree = SOURCE_ROOT; };
@@ -51,6 +53,7 @@
 			children = (
 				9295C94E1B253D8900C388EB /* MMMaterialDesignSpinner.h */,
 				9295C94F1B253D8900C388EB /* MMMaterialDesignSpinner.m */,
+				75A8F6091E6C2F8E00C7FF55 /* ActivityTracking.h */,
 				9295C9351B253D2D00C388EB /* Supporting Files */,
 			);
 			path = MMMaterialDesignSpinner;
@@ -71,6 +74,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A8F60A1E6C2F8E00C7FF55 /* ActivityTracking.h in Headers */,
 				9295C9501B253D8900C388EB /* MMMaterialDesignSpinner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
