@@ -33,7 +33,7 @@
 @property (nonatomic) CGFloat lineWidth;
 
 /** Sets the line cap of the spinner's circle. */
-@property (nonatomic, strong) NSString *lineCap;
+@property (nonatomic, strong) NSString * _Nullable lineCap;
 
 /** Specifies the timing function to use for the control's animation. Defaults to kCAMediaTimingFunctionEaseInEaseOut */
 @property (nullable, nonatomic, strong) CAMediaTimingFunction *timingFunction;
