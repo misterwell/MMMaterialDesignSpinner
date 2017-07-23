@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E0CC1D2749D35601114E793EAF99204 /* ActivityTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = DB10D0F9392E4BFBC3CC4FD7317A451F /* ActivityTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3282FA338797F004BE78CF0768EDC90B /* MMMaterialDesignSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = DDADEB5EC9583723396C1AA7B323FF29 /* MMMaterialDesignSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ECDBBB9B8127400D9F426A0E7C8702D /* UIRefreshControl+MaterialDesignSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A224C4A2AC187B65ADBE3121D42CE8 /* UIRefreshControl+MaterialDesignSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2956E8905120D070E39A294245D6D5E9 /* MMMaterialDesignSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CC98D90268C2CC07BB35A85564383D /* MMMaterialDesignSpinner-dummy.m */; };
+		2E6461465B4C8D6F88F5E7869D109CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
 		3B320A7E585B9CAFB5962FE430562B05 /* Pods-MaterialDesignSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69767E81EEF74DA03C18B26CFA2A1E83 /* Pods-MaterialDesignSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		513A06E050B07E1E97124D57418B07F9 /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24FEEBF29AFE475E32E8B756608C6CCD /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60C09982352DE750DE8055AAE252CF26 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 015BF5F07D0066AF3B8A61EF6C622916 /* MMMaterialDesignSpinner.m */; };
-		80268522ACDEAE90C66ED7DE37D48F93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
+		686E9D314642E39E0C736305520FA3C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
+		768861C8E4E17559D501B55251427888 /* ActivityTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB1599D6D3C353926D2842D8788446A /* ActivityTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E3774B3359A93509F11AF8D98A6023D /* MMMaterialDesignSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F29B7982BD4EF376439F0CD2EA934EE /* MMMaterialDesignSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C66E32E3ED245C81FF881C3C57AAB6F /* MMMaterialDesignSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAB61C759DA8335D82AA38BA471FEF1 /* MMMaterialDesignSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E6614AFBFB598814C63A0A8C2478AB2 /* Pods-MaterialDesignSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4619AC9B6E54337E0B4448B9F6E59D54 /* Pods-MaterialDesignSpinner-dummy.m */; };
 		91C9710A466A673CFA1C206BE8A86E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		9383F69ACDD18BC4A0939EB3F07549C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		97727B0FCEB443C2E0EAE78C5E802112 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
-		B818AB5405E962AD3DD4BDE96E71C582 /* MMMaterialDesignSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CC98D90268C2CC07BB35A85564383D /* MMMaterialDesignSpinner-dummy.m */; };
+		B44E72E4F7713230B41847CB1F4F72F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
 		C5A08214438FEF26EBFE251B8158C2C4 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5281EDC8F0A8FCD3E8B3E6E197EF6AD /* Pods-Tests-dummy.m */; };
-		D75BA8983484D2630EF7051808457313 /* MMMaterialDesignSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F29B7982BD4EF376439F0CD2EA934EE /* MMMaterialDesignSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94055572060E633C1C0899300E91FDB /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 377768DD144BEA858C22F6F6E5E559A9 /* MMMaterialDesignSpinner.m */; };
 		E31CF08710C2CC62F000CA1FDECA0716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,20 +29,19 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9ABA61C745981AA2EEEE2CA252B709C9;
+			remoteGlobalIDString = D0DCF60C86A59107643416A240FAA906;
 			remoteInfo = MMMaterialDesignSpinner;
 		};
 		C0771FDB8569CD51814B13F5C3D8780A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9ABA61C745981AA2EEEE2CA252B709C9;
+			remoteGlobalIDString = D0DCF60C86A59107643416A240FAA906;
 			remoteInfo = MMMaterialDesignSpinner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015BF5F07D0066AF3B8A61EF6C622916 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
 		03B230D3C26E54307C02F65DA12C38B6 /* MMMaterialDesignSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMMaterialDesignSpinner-prefix.pch"; sourceTree = "<group>"; };
 		0C12935C8A6997AEC39D6325367202BA /* Pods-MaterialDesignSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialDesignSpinner.debug.xcconfig"; sourceTree = "<group>"; };
 		15CC98D90268C2CC07BB35A85564383D /* MMMaterialDesignSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMMaterialDesignSpinner-dummy.m"; sourceTree = "<group>"; };
@@ -51,11 +51,14 @@
 		33BF9F61F0AD5D1786B667560FB78603 /* Pods-MaterialDesignSpinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialDesignSpinner.release.xcconfig"; sourceTree = "<group>"; };
 		3718E831A56717BCC9CCEDDE10B09BC6 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		376CB13A134C0D6E12BF41B776B31C4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377768DD144BEA858C22F6F6E5E559A9 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
 		3CA8FE849D081320B60858908D74259E /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E49D88410D6B85BD2142B70F54EB030 /* Pods-MaterialDesignSpinner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaterialDesignSpinner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4619AC9B6E54337E0B4448B9F6E59D54 /* Pods-MaterialDesignSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialDesignSpinner-dummy.m"; sourceTree = "<group>"; };
 		4DFB699024FF2729C020A9A8BA625D83 /* Pods-MaterialDesignSpinner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialDesignSpinner-resources.sh"; sourceTree = "<group>"; };
+		4FB1599D6D3C353926D2842D8788446A /* ActivityTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ActivityTracking.h; sourceTree = "<group>"; };
 		615BD79D252C18BD861D07CA5F6C57DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A224C4A2AC187B65ADBE3121D42CE8 /* UIRefreshControl+MaterialDesignSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+MaterialDesignSpinner.h"; sourceTree = "<group>"; };
 		69767E81EEF74DA03C18B26CFA2A1E83 /* Pods-MaterialDesignSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialDesignSpinner-umbrella.h"; sourceTree = "<group>"; };
 		6DAB18C629B8C65593933533C71A7B1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74565DACFA8E98A2363B0715EB43B6A1 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
@@ -72,11 +75,10 @@
 		C8AE40D588AADE58E7D083CF5C5C6B64 /* MMMaterialDesignSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MMMaterialDesignSpinner.modulemap; sourceTree = "<group>"; };
 		CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D22A5593A1CE92FAF6469BD6081D1DA5 /* Pods-MaterialDesignSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MaterialDesignSpinner.modulemap"; sourceTree = "<group>"; };
-		DB10D0F9392E4BFBC3CC4FD7317A451F /* ActivityTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ActivityTracking.h; sourceTree = "<group>"; };
-		DDADEB5EC9583723396C1AA7B323FF29 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
 		EC4C5F273BD00EBF1121633F12BB4B6E /* MMMaterialDesignSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMMaterialDesignSpinner.xcconfig; sourceTree = "<group>"; };
 		F4BD5ADCA329BE69CA78EA6CFBCDD1CB /* Pods-MaterialDesignSpinner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialDesignSpinner-frameworks.sh"; sourceTree = "<group>"; };
 		F5C0746CA9E7DFD4AE0A93663468579F /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBAB61C759DA8335D82AA38BA471FEF1 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,21 +90,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70B4D871988CFBB27A5C75024080BED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44E72E4F7713230B41847CB1F4F72F6 /* CoreGraphics.framework in Frameworks */,
+				2E6461465B4C8D6F88F5E7869D109CCB /* Foundation.framework in Frameworks */,
+				686E9D314642E39E0C736305520FA3C7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9E54D956C0247CBAAB4A2AE7C1A38064 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E31CF08710C2CC62F000CA1FDECA0716 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A01F8BCB9B336071E5948A5207926FD8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80268522ACDEAE90C66ED7DE37D48F93 /* CoreGraphics.framework in Frameworks */,
-				9383F69ACDD18BC4A0939EB3F07549C9 /* Foundation.framework in Frameworks */,
-				97727B0FCEB443C2E0EAE78C5E802112 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,12 +119,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1BB52FE9515DF2E3CE66DEE10D34A515 /* Classes */ = {
+		16DD66EB9878D38899D6980C67DD82D1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DB10D0F9392E4BFBC3CC4FD7317A451F /* ActivityTracking.h */,
-				DDADEB5EC9583723396C1AA7B323FF29 /* MMMaterialDesignSpinner.h */,
-				015BF5F07D0066AF3B8A61EF6C622916 /* MMMaterialDesignSpinner.m */,
+				4FB1599D6D3C353926D2842D8788446A /* ActivityTracking.h */,
+				FBAB61C759DA8335D82AA38BA471FEF1 /* MMMaterialDesignSpinner.h */,
+				377768DD144BEA858C22F6F6E5E559A9 /* MMMaterialDesignSpinner.m */,
+				65A224C4A2AC187B65ADBE3121D42CE8 /* UIRefreshControl+MaterialDesignSpinner.h */,
 			);
 			name = Classes;
 			path = Classes;
@@ -156,15 +159,6 @@
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		49B9B06782B66F636D870F8F9D11EBC0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1BB52FE9515DF2E3CE66DEE10D34A515 /* Classes */,
-			);
-			name = Pod;
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		5C1565B771D8646D274C9F1A31BBF7E6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +171,15 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MMMaterialDesignSpinner";
+			sourceTree = "<group>";
+		};
+		74C7370CDBFCCBD829EBC18A672A7D46 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				16DD66EB9878D38899D6980C67DD82D1 /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -238,7 +241,7 @@
 		EEDD6E3CE728A6D507AA4A806FA84217 /* MMMaterialDesignSpinner */ = {
 			isa = PBXGroup;
 			children = (
-				49B9B06782B66F636D870F8F9D11EBC0 /* Pod */,
+				74C7370CDBFCCBD829EBC18A672A7D46 /* Pod */,
 				5C1565B771D8646D274C9F1A31BBF7E6 /* Support Files */,
 			);
 			name = MMMaterialDesignSpinner;
@@ -256,21 +259,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F7E4C1B5F0CDA67C401AFAFE58FBABC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768861C8E4E17559D501B55251427888 /* ActivityTracking.h in Headers */,
+				7E3774B3359A93509F11AF8D98A6023D /* MMMaterialDesignSpinner-umbrella.h in Headers */,
+				8C66E32E3ED245C81FF881C3C57AAB6F /* MMMaterialDesignSpinner.h in Headers */,
+				1ECDBBB9B8127400D9F426A0E7C8702D /* UIRefreshControl+MaterialDesignSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5658EEFCF3087AECC95FAF6B00097DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3B320A7E585B9CAFB5962FE430562B05 /* Pods-MaterialDesignSpinner-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2DE1D443CF2D899C71FF802D8219CF5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E0CC1D2749D35601114E793EAF99204 /* ActivityTracking.h in Headers */,
-				D75BA8983484D2630EF7051808457313 /* MMMaterialDesignSpinner-umbrella.h in Headers */,
-				3282FA338797F004BE78CF0768EDC90B /* MMMaterialDesignSpinner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,13 +299,13 @@
 			productReference = 9F4322F7FF26855F14049E27E1ED6313 /* Pods_MaterialDesignSpinner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9ABA61C745981AA2EEEE2CA252B709C9 /* MMMaterialDesignSpinner */ = {
+		D0DCF60C86A59107643416A240FAA906 /* MMMaterialDesignSpinner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14EA822B282E0B284758432075781E6C /* Build configuration list for PBXNativeTarget "MMMaterialDesignSpinner" */;
+			buildConfigurationList = 4CF678652143C6769F9BC51007756198 /* Build configuration list for PBXNativeTarget "MMMaterialDesignSpinner" */;
 			buildPhases = (
-				2207EC9B2421BE55997CADAF5B90DDC4 /* Sources */,
-				A01F8BCB9B336071E5948A5207926FD8 /* Frameworks */,
-				C2DE1D443CF2D899C71FF802D8219CF5 /* Headers */,
+				7D5C2E3A4AF6395685053723FB9CA9D3 /* Sources */,
+				70B4D871988CFBB27A5C75024080BED0 /* Frameworks */,
+				8F7E4C1B5F0CDA67C401AFAFE58FBABC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -351,7 +355,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9ABA61C745981AA2EEEE2CA252B709C9 /* MMMaterialDesignSpinner */,
+				D0DCF60C86A59107643416A240FAA906 /* MMMaterialDesignSpinner */,
 				8D3A7407C4F4C6169264835024F090F7 /* Pods-MaterialDesignSpinner */,
 				E31CCE1A7B78DB4FDC6A294699715D8D /* Pods-Tests */,
 			);
@@ -367,20 +371,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2207EC9B2421BE55997CADAF5B90DDC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B818AB5405E962AD3DD4BDE96E71C582 /* MMMaterialDesignSpinner-dummy.m in Sources */,
-				60C09982352DE750DE8055AAE252CF26 /* MMMaterialDesignSpinner.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		590C3CEAD40240E78DAFCD9FBF62710A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8E6614AFBFB598814C63A0A8C2478AB2 /* Pods-MaterialDesignSpinner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D5C2E3A4AF6395685053723FB9CA9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2956E8905120D070E39A294245D6D5E9 /* MMMaterialDesignSpinner-dummy.m in Sources */,
+				D94055572060E633C1C0899300E91FDB /* MMMaterialDesignSpinner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,13 +394,13 @@
 		BED89BC6F13B68168FB71FD6830CDC2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMMaterialDesignSpinner;
-			target = 9ABA61C745981AA2EEEE2CA252B709C9 /* MMMaterialDesignSpinner */;
+			target = D0DCF60C86A59107643416A240FAA906 /* MMMaterialDesignSpinner */;
 			targetProxy = 982A30AAE8C51662BB774A80E6BF2DF5 /* PBXContainerItemProxy */;
 		};
 		F5AB9FDAF2B6EF3E859800517DE369C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMMaterialDesignSpinner;
-			target = 9ABA61C745981AA2EEEE2CA252B709C9 /* MMMaterialDesignSpinner */;
+			target = D0DCF60C86A59107643416A240FAA906 /* MMMaterialDesignSpinner */;
 			targetProxy = C0771FDB8569CD51814B13F5C3D8780A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,39 +450,7 @@
 			};
 			name = Release;
 		};
-		36C93DC0A1F0E45783988F5F4838D06E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC4C5F273BD00EBF1121633F12BB4B6E /* MMMaterialDesignSpinner.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MMMaterialDesignSpinner/MMMaterialDesignSpinner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMMaterialDesignSpinner/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMMaterialDesignSpinner/MMMaterialDesignSpinner.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MMMaterialDesignSpinner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B3C1874FEC2FE432340F3E710E2D6768 /* Release */ = {
+		7A6782EEC0B5765ABFC79B4DBA66CE4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC4C5F273BD00EBF1121633F12BB4B6E /* MMMaterialDesignSpinner.xcconfig */;
 			buildSettings = {
@@ -509,6 +481,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		B95ADAFF1D9C90E51FEDC2C51ACACB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4C5F273BD00EBF1121633F12BB4B6E /* MMMaterialDesignSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMMaterialDesignSpinner/MMMaterialDesignSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMMaterialDesignSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMMaterialDesignSpinner/MMMaterialDesignSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MMMaterialDesignSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -705,15 +709,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14EA822B282E0B284758432075781E6C /* Build configuration list for PBXNativeTarget "MMMaterialDesignSpinner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				36C93DC0A1F0E45783988F5F4838D06E /* Debug */,
-				B3C1874FEC2FE432340F3E710E2D6768 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -737,6 +732,15 @@
 			buildConfigurations = (
 				F9C235864DBA75AC97E8E124102BFA41 /* Debug */,
 				F5B39DD4B98A9D8F1580DE97BF4764FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF678652143C6769F9BC51007756198 /* Build configuration list for PBXNativeTarget "MMMaterialDesignSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95ADAFF1D9C90E51FEDC2C51ACACB6D /* Debug */,
+				7A6782EEC0B5765ABFC79B4DBA66CE4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

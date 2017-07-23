@@ -12,6 +12,7 @@
 
 #import "ActivityTracking.h"
 #import "MMMaterialDesignSpinner.h"
+#import "UIRefreshControl+MaterialDesignSpinner.h"
 
 FOUNDATION_EXPORT double MMMaterialDesignSpinnerVersionNumber;
 FOUNDATION_EXPORT const unsigned char MMMaterialDesignSpinnerVersionString[];

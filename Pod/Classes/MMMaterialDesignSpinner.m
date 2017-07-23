@@ -24,6 +24,7 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
 @synthesize color=_color;
 @synthesize timingFunction=_timingFunction;
 @synthesize duration=_duration;
+@synthesize percentComplete=_percentComplete;
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
@@ -47,6 +48,7 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
 
 - (void)initialize {
     self.duration = 1.5f;
+    self.percentComplete = 0.f;
     _timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     
     [self.layer addSublayer:self.progressLayer];
@@ -175,9 +177,9 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
     CGFloat endAngle = (CGFloat)(2*M_PI);
     UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:center radius:radius startAngle:startAngle endAngle:endAngle clockwise:YES];
     self.progressLayer.path = path.CGPath;
-    
+
     self.progressLayer.strokeStart = 0.f;
-    self.progressLayer.strokeEnd = 0.f;
+    self.progressLayer.strokeEnd = self.percentComplete;
 }
 
 #pragma mark - Properties
@@ -219,6 +221,15 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
 - (void)setHidesWhenStopped:(BOOL)hidesWhenStopped {
     _hidesWhenStopped = hidesWhenStopped;
     self.hidden = !self.isAnimating && hidesWhenStopped;
+}
+
+- (void)setPercentComplete:(CGFloat)percentComplete {
+    _percentComplete = percentComplete;
+    if (_isAnimating) {
+        return;
+    }
+    self.progressLayer.strokeStart = 0.f;
+    self.progressLayer.strokeEnd = self.percentComplete;
 }
 
 @end
