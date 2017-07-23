@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="uXx-W6-c1L">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -8,7 +8,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -37,54 +36,55 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HW3-rr-Akw" customClass="MMMaterialDesignSpinner">
-                                <rect key="frame" x="125" y="271" width="125" height="125"/>
+                                <rect key="frame" x="282.5" y="112" width="102" height="102"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="150" id="V9j-yU-cYh"/>
                                     <constraint firstAttribute="width" secondItem="HW3-rr-Akw" secondAttribute="height" multiplier="1:1" id="eh9-m5-0OE"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xg1-YZ-sWL">
-                                <rect key="frame" x="99" y="72" width="176" height="30"/>
+                                <rect key="frame" x="245.5" y="72" width="176" height="30"/>
                                 <state key="normal" title="Table View Refresh Demo"/>
                                 <connections>
                                     <segue destination="yGj-0q-1O8" kind="show" id="TDu-UG-S9b"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="C5g-gW-XGY">
-                                <rect key="frame" x="16" y="496" width="343" height="151"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="C5g-gW-XGY">
+                                <rect key="frame" x="20" y="224" width="627" height="131"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SCW-8b-chC">
-                                        <rect key="frame" x="103.5" y="0.0" width="136" height="31"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SCW-8b-chC">
+                                        <rect key="frame" x="245.5" y="0.0" width="136" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOX-Dm-Moq">
-                                                <rect key="frame" x="0.0" y="0.0" width="77" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="77" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lzS-2t-fnC">
-                                                <rect key="frame" x="87" y="0.0" width="51" height="31"/>
+                                                <rect key="frame" x="87" y="0.0" width="51" height="20.5"/>
                                                 <connections>
                                                     <action selector="animateSwitchValueDidChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Eec-rx-TlF"/>
                                                 </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="P1z-mM-mIQ">
-                                        <rect key="frame" x="51" y="41" width="241.5" height="30"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="P1z-mM-mIQ">
+                                        <rect key="frame" x="193" y="30.5" width="241.5" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZk-x6-Cbo">
-                                                <rect key="frame" x="0.0" y="0.0" width="65.5" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="65.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="BCa-2B-PxA">
-                                                <rect key="frame" x="73.5" y="0.0" width="170" height="31"/>
+                                                <rect key="frame" x="73.5" y="0.0" width="170" height="21.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="166" id="oZZ-eP-B6N"/>
                                                 </constraints>
@@ -96,18 +96,18 @@
                                             </slider>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vgU-Kg-LIP">
-                                        <rect key="frame" x="0.0" y="81" width="343" height="30"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vgU-Kg-LIP">
+                                        <rect key="frame" x="0.0" y="61" width="627" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxJ-ep-Qc5">
-                                                <rect key="frame" x="0.0" y="0.0" width="166.5" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="308.5" height="30"/>
                                                 <state key="normal" title="Change Color"/>
                                                 <connections>
                                                     <action selector="changeColorButtonTouched:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zUc-r8-e9P"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Umg-oT-Dv1">
-                                                <rect key="frame" x="176.5" y="0.0" width="166.5" height="30"/>
+                                                <rect key="frame" x="318.5" y="0.0" width="308.5" height="30"/>
                                                 <state key="normal" title="Change Line Width"/>
                                                 <connections>
                                                     <action selector="changeLineWidthButtonTouched:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Kgo-vV-Mja"/>
@@ -115,25 +115,25 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FhH-4Y-9FI">
-                                        <rect key="frame" x="0.0" y="121" width="343" height="30"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FhH-4Y-9FI">
+                                        <rect key="frame" x="0.0" y="101" width="627" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1O-wf-Kab">
-                                                <rect key="frame" x="0.0" y="0.0" width="107.5" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="202.5" height="30"/>
                                                 <state key="normal" title="Square Cap"/>
                                                 <connections>
                                                     <action selector="squareCapButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Wea-lk-mor"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voE-WH-qy2">
-                                                <rect key="frame" x="117.5" y="0.0" width="108" height="30"/>
+                                                <rect key="frame" x="212.5" y="0.0" width="202" height="30"/>
                                                 <state key="normal" title="Round Cap"/>
                                                 <connections>
                                                     <action selector="rouncCapButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2Gq-FN-hQJ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUs-BJ-ux5">
-                                                <rect key="frame" x="235.5" y="0.0" width="107.5" height="30"/>
+                                                <rect key="frame" x="424.5" y="0.0" width="202.5" height="30"/>
                                                 <state key="normal" title="Butt Cap"/>
                                                 <connections>
                                                     <action selector="buttCapButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="swh-1h-iNn"/>
@@ -157,7 +157,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="C5g-gW-XGY" secondAttribute="trailing" id="3Jn-tn-6Ed"/>
-                            <constraint firstItem="HW3-rr-Akw" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="1:3" id="4dr-09-65z"/>
+                            <constraint firstItem="HW3-rr-Akw" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Xg1-YZ-sWL" secondAttribute="bottom" constant="10" id="BlP-I8-SV3"/>
                             <constraint firstItem="C5g-gW-XGY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="HW3-rr-Akw" secondAttribute="bottom" constant="10" id="IFo-tU-Z4e"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="C5g-gW-XGY" secondAttribute="bottom" constant="20" id="Ta7-df-tHk"/>
                             <constraint firstItem="Xg1-YZ-sWL" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Yrm-XY-gDC"/>
@@ -183,19 +183,19 @@
             <objects>
                 <tableViewController title="Refresh Control Demo" id="yGj-0q-1O8" customClass="MMTableViewRefreshDemoController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="r6U-t1-zsb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DemoCell" textLabel="LDa-4Q-xy6" style="IBUITableViewCellStyleDefault" id="iE3-Vo-weT">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="667" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iE3-Vo-weT" id="ofK-in-Xv7">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="667" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LDa-4Q-xy6">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="637" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
