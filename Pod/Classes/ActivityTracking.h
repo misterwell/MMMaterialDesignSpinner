@@ -41,6 +41,9 @@
 /** Property indicating the duration of the animation, default is 1.5s. Should be set prior to -[startAnimating] */
 @property (nonatomic, readwrite) NSTimeInterval duration;
 
+/** Property to manually set the percent complete of the spinner, in case you don't want to start at 0. Valid values are 0.0 to 1.0 */
+@property (nonatomic) CGFloat percentComplete;
+
 /**
  *  Convenience function for starting & stopping animation with a boolean variable instead of explicit
  *  method calls.

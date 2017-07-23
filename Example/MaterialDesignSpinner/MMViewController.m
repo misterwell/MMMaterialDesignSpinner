@@ -12,7 +12,10 @@
 
 @interface MMViewController ()
 @property (nonatomic, strong) IBOutlet MMMaterialDesignSpinner *spinnerView;
-@property (weak, nonatomic) IBOutlet UISlider *durationSlider;
+@property (weak, nonatomic) IBOutlet UISlider *sliderControl;
+@property (weak, nonatomic) IBOutlet UILabel *sliderLabel;
+
+@property (nonatomic, assign) BOOL animate;
 @end
 
 @implementation MMViewController
@@ -34,10 +37,18 @@
     if (self.spinnerView.lineWidth == 0) self.spinnerView.lineWidth = 0.1f;
 }
 
-- (IBAction)durationSliderValueUpdated:(id)sender {
-    [self.spinnerView stopAnimating];
-    self.spinnerView.duration = self.durationSlider.value;
-    [self.spinnerView startAnimating];
+- (IBAction)sliderValueUpdated:(id)sender {
+    if (self.animate) {
+        [self.spinnerView stopAnimating];
+        self.spinnerView.duration = self.sliderControl.value;
+        [self.spinnerView startAnimating];
+    }
+}
+
+- (IBAction)sliderValueChanged:(id)sender {
+    if (!self.animate) {
+        self.spinnerView.percentComplete = [self sliderPercentValue];
+    }
 }
 
 - (IBAction)squareCapButtonPressed:(id)sender {
@@ -52,6 +63,14 @@
     self.spinnerView.lineCap = kCALineCapButt;
 }
 
+- (IBAction)animateSwitchValueDidChange:(UISwitch *)sender {
+    self.animate = sender.on;
+    [self.spinnerView setAnimating:self.animate];
+    self.sliderLabel.text = (self.animate
+                             ? @"Duration"
+                             : @"Percent Complete");
+    self.spinnerView.percentComplete = [self sliderPercentValue];
+}
 
 #pragma mark Helper methods
 
@@ -60,6 +79,10 @@
     CGFloat saturation = ( arc4random() % 128 / 256.0 ) + 0.5;  //  0.5 to 1.0, away from white
     CGFloat brightness = ( arc4random() % 128 / 256.0 ) + 0.5;  //  0.5 to 1.0, away from black
     return [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1];
+}
+
+- (float)sliderPercentValue {
+    return self.sliderControl.value / self.sliderControl.maximumValue;
 }
 
 @end

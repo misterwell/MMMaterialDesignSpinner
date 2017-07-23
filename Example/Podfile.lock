@@ -1,5 +1,5 @@
 PODS:
-  - MMMaterialDesignSpinner (0.2.6)
+  - MMMaterialDesignSpinner (0.2.4)
 
 DEPENDENCIES:
   - MMMaterialDesignSpinner (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MMMaterialDesignSpinner: f877769592cc4410c51299a64d6c3934a9fcdab1
+  MMMaterialDesignSpinner: 66a80c1c7a745e65e1fefeff613a6510ddc1fe54
 
 PODFILE CHECKSUM: c0dd544008166879b3152865a647d9ab7cf11291
 

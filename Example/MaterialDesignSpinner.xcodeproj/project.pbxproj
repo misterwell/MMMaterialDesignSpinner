@@ -23,6 +23,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		DB00E2101F23C12C00898B82 /* MMTableViewRefreshDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB00E20F1F23C12C00898B82 /* MMTableViewRefreshDemoController.m */; };
 		DB7295681BC9B25B009FD543 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7295661BC9B25B009FD543 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,8 @@
 		BB285D85DDBCA3BB5368E9D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C8117106087F098A36FCC7F6 /* MMMaterialDesignSpinner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMMaterialDesignSpinner.podspec; path = ../MMMaterialDesignSpinner.podspec; sourceTree = "<group>"; };
 		D62024797BF9E0256134B3A1 /* Pods-MaterialDesignSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialDesignSpinner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialDesignSpinner/Pods-MaterialDesignSpinner.debug.xcconfig"; sourceTree = "<group>"; };
+		DB00E20E1F23C12C00898B82 /* MMTableViewRefreshDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTableViewRefreshDemoController.h; sourceTree = "<group>"; };
+		DB00E20F1F23C12C00898B82 /* MMTableViewRefreshDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTableViewRefreshDemoController.m; sourceTree = "<group>"; };
 		DB7295671BC9B25B009FD543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		FFAEBE2A7061ED538B50A755 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +143,8 @@
 				6003F5A6195388D20070C39A /* MMViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				DB00E20E1F23C12C00898B82 /* MMTableViewRefreshDemoController.h */,
+				DB00E20F1F23C12C00898B82 /* MMTableViewRefreshDemoController.m */,
 			);
 			path = MaterialDesignSpinner;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 			files = (
 				6003F59E195388D20070C39A /* MMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MMViewController.m in Sources */,
+				DB00E2101F23C12C00898B82 /* MMTableViewRefreshDemoController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
